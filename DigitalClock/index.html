@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Digital Clock</h1>
+        <div id="clockDisplay" class="clock">
+            --:--:--
+        </div>
+        <p class="sr-only">This Clock updates every second</p>
+        <button id="toggleFormat">Switch to 24 hours</button>
+        <p id="liveRegion" aria-atomic="true" aria-live="polite" class="sr-only"></p>
+        <button id="togglelive">Announce Current time</button>
+        
+    </main>
+    <script src="clock.js"></script>
+</body>
+</html>
