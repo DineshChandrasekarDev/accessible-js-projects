@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.4s ease;
+}
+
+/* Card */
+main {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Color Display Box */
+.color-box {
+  margin: 20px auto;
+  padding: 30px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 12px;
+  background: white;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+/* Generate Button */
+#generateBtn {
+  background: #222;
+  color: white;
+}
+
+#generateBtn:hover {
+  background: #444;
+}
+
+/* Copy Button */
+#copyBtn {
+  background: #f1f1f1;
+  color: #222;
+}
+
+#copyBtn:hover {
+  background: #ddd;
+}
+
+/* Button click effect */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Focus accessibility */
+button:focus {
+  outline: 3px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  left: -9999px;
+}
