@@ -1,0 +1,21 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    padding-top: 45px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+.sr-only{
+    position:absolute;
+    left: -9999px;
+}
+button:focus{
+    outline: 3px solid blue;
+
+}
+.clock{
+    font-weight: bold;
+    font-size: 3em;
+}

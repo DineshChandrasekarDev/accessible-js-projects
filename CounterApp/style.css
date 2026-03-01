@@ -1,0 +1,13 @@
+body{
+  font-family: Arial;
+  text-align: center;
+  padding-top: 50px;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+button:focus {
+  outline: 3px solid blue;
+}
