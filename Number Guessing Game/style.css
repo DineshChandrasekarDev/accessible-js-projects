@@ -1,0 +1,110 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+}
+
+/* Card */
+main {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+/* Instruction text */
+p {
+  margin-bottom: 10px;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  margin: 15px 0;
+  outline: none;
+}
+
+/* Input focus */
+input:focus {
+  box-shadow: 0 0 0 3px #fff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  margin: 8px 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+/* Submit button */
+#submitBtn {
+  background: #fff;
+  color: #333;
+}
+
+#submitBtn:hover {
+  background: #f1f1f1;
+}
+
+/* Reset button */
+#resetBtn {
+  background: rgba(255,255,255,0.3);
+  color: white;
+}
+
+#resetBtn:hover {
+  background: rgba(255,255,255,0.5);
+}
+
+/* Click effect */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Accessible focus */
+button:focus {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* Message styling */
+#message {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Attempts */
+#attempts {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
